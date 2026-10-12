@@ -377,3 +377,8 @@ html[lang="zh-CN"] .hero-title-line lab-text{white-space:pre-line}
 @media(max-width:760px){.hero-spike{height:86px;margin-top:30px;width:68%}}
 @media(max-height:760px){.hero-spike{height:81px;margin-top:28px}}
 @media(max-width:700px) and (max-height:740px){.hero-spike{height:72px;margin-top:24px}}
+
+/* Homepage motto beneath the research headline. */
+.home .hero-motto{margin:22px 0 0;color:#c8d9f5;font-size:clamp(16px,1.6vw,22px);line-height:1.5;font-weight:400;letter-spacing:.01em}
+@media(max-width:760px){.home .hero-motto{margin-top:18px;font-size:17px}}
+@media(max-height:650px){.home .hero-motto{margin-top:12px;font-size:16px}}
