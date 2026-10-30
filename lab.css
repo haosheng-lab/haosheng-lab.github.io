@@ -312,7 +312,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #6580ed;outline-offset:5p
  .framework-diagram{padding:30px 22px;border-radius:26px}.framework-goal h3{font-size:var(--section)}
  .sheng-framework-stages{grid-template-columns:1fr;gap:14px}.framework-domain{padding:24px}
  .research-detail{grid-template-columns:1fr;gap:35px;padding:50px 0}.detail-aside{position:static}
- .detail-aside img{max-height:500px;aspect-ratio:1.2;object-fit:cover}
+ .detail-aside img{max-height:none;aspect-ratio:1;object-fit:contain}
  .research-publications{padding:25px 20px;grid-column:1}.research-paper{grid-template-columns:1fr;gap:26px}
  .research-paper-figure img{height:230px}.research-paper-copy h4{font-size:var(--subheading)}
  .research-publications-heading h3{font-size:var(--subheading)}.simple-cta{padding-top:55px}
