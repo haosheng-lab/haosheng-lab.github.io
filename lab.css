@@ -1,6 +1,6 @@
 /* Sheng Lab — original presentation design. All fonts are locally bundled. */
 :root {
-  --page-width:1160px;--page-gutter:48px;--intro-top:130px;
+  --page-width:1160px;--page-gutter:48px;--intro-top:144px;
   --sans:'Roboto',Arial,Helvetica,sans-serif;
   --serif:var(--sans);
   --ink:#16171b;--muted:#626572;--line:#e2e5eb;
@@ -282,7 +282,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #6580ed;outline-offset:5p
 @media(max-width:1300px){.desktop-nav{gap:18px}.nav-inner{gap:20px}}
 @media(max-width:1300px){.desktop-nav{display:none}#hamburger{display:block}}
 @media(max-width:760px){
- :root{--title:clamp(38px,8.5vw,52px);--section:32px;--subheading:24px;--lead:18px;--body:17px;--page-gutter:24px;--intro-top:109px}
+ :root{--title:clamp(38px,8.5vw,52px);--section:32px;--subheading:24px;--lead:18px;--body:17px;--page-gutter:24px;--intro-top:116px}
  .nav-inner{height:68px}.brand{font-size:20px}.brand img{width:44px;height:44px}
  .home-intro{padding-top:125px}.hero-eyebrow{font-size:12px;margin-bottom:24px}
  .home .home-intro{padding-top:120px;padding-bottom:32px;min-height:100svh}
