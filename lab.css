@@ -150,7 +150,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #6580ed;outline-offset:5p
 .research-detail{display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:start;padding:75px 0;margin-top:10px;border-top:1px solid var(--line)}
 .detail-aside{position:static}
 .detail-aside img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:26px}
-.detail-body h3{font-size:var(--subheading);margin-top:26px}
+.detail-body h3{font-size:var(--subheading);margin-top:26px;text-wrap:wrap}
 .detail-body>p{font-size:var(--body);color:var(--muted);margin-top:24px}
 .detail-body>p a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
 .research-focus{margin-top:30px;padding:24px;background:var(--surface);border-radius:26px}
