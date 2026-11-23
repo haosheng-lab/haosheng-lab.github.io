@@ -1,6 +1,6 @@
 /* Sheng Lab — original presentation design. All fonts are locally bundled. */
 :root {
-  --page-width:1160px;--page-gutter:48px;--intro-top:144px;
+  --page-width:1160px;--page-gutter:48px;--intro-top:130px;
   --sans:'Roboto',Arial,Helvetica,sans-serif;
   --serif:var(--sans);
   --ink:#16171b;--muted:#626572;--line:#e2e5eb;
@@ -282,7 +282,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #6580ed;outline-offset:5p
 @media(max-width:1300px){.desktop-nav{gap:18px}.nav-inner{gap:20px}}
 @media(max-width:1300px){.desktop-nav{display:none}#hamburger{display:block}}
 @media(max-width:760px){
- :root{--title:clamp(38px,8.5vw,52px);--section:32px;--subheading:24px;--lead:18px;--body:17px;--page-gutter:24px;--intro-top:116px}
+ :root{--title:clamp(38px,8.5vw,52px);--section:32px;--subheading:24px;--lead:18px;--body:17px;--page-gutter:24px;--intro-top:109px}
  .nav-inner{height:68px}.brand{font-size:20px}.brand img{width:44px;height:44px}
  .home-intro{padding-top:125px}.hero-eyebrow{font-size:12px;margin-bottom:24px}
  .home .home-intro{padding-top:120px;padding-bottom:32px;min-height:100svh}
@@ -382,3 +382,6 @@ html[lang="zh-CN"] .hero-title-line lab-text{white-space:pre-line}
 .home .hero-motto{margin:22px 0 0;color:#c8d9f5;font-size:clamp(16px,1.6vw,22px);line-height:1.5;font-weight:400;letter-spacing:.01em}
 @media(max-width:760px){.home .hero-motto{margin-top:18px;font-size:17px}}
 @media(max-height:650px){.home .hero-motto{margin-top:12px;font-size:16px}}
+
+/* Align the Research title with other page titles; lift its discipline label. */
+.page-about .page-intro{position:relative}.page-about .research-disciplines{position:absolute;top:calc(var(--intro-top) - 42px);left:0;margin:0;line-height:1.5}@media(max-width:700px){.page-about .research-disciplines{top:calc(var(--intro-top) - 34px)}}
