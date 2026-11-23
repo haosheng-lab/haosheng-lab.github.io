@@ -383,3 +383,6 @@ html[lang="zh-CN"] .hero-title-line lab-text{white-space:pre-line}
 @media(max-width:760px){.home .hero-motto{margin-top:18px;font-size:17px}}
 @media(max-height:650px){.home .hero-motto{margin-top:12px;font-size:16px}}
 
+
+/* Keep header and content aligned when switching between short and long pages. */
+html{overflow-y:scroll}
