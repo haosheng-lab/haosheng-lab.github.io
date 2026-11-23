@@ -383,5 +383,3 @@ html[lang="zh-CN"] .hero-title-line lab-text{white-space:pre-line}
 @media(max-width:760px){.home .hero-motto{margin-top:18px;font-size:17px}}
 @media(max-height:650px){.home .hero-motto{margin-top:12px;font-size:16px}}
 
-/* Align the Research title with other page titles; lift its discipline label. */
-.page-about .page-intro{position:relative}.page-about .research-disciplines{position:absolute;top:calc(var(--intro-top) - 42px);left:0;margin:0;line-height:1.5}@media(max-width:700px){.page-about .research-disciplines{top:calc(var(--intro-top) - 34px)}}
