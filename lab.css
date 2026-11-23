@@ -398,3 +398,6 @@ html{overflow-y:scroll}
 
 /* Align the final navigation item with the content edge; language switch stays outside. */
 .nav-inner{padding-right:0}
+
+/* Reserve a separate touch target beside the language control in collapsed navigation. */
+@media(max-width:1300px){.site-header :is(#hamburger,.site-native-menu){flex-shrink:0;margin-right:max(0px,calc(80px - var(--page-gutter)))}}
