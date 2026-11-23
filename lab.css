@@ -1,6 +1,6 @@
 /* Sheng Lab — original presentation design. All fonts are locally bundled. */
 :root {
-  --page-width:1160px;--page-gutter:48px;--intro-top:144px;
+  --page-width:1160px;--page-gutter:48px;--intro-top:130px;
   --sans:'Roboto',Arial,Helvetica,sans-serif;
   --serif:var(--sans);
   --ink:#16171b;--muted:#626572;--line:#e2e5eb;
@@ -386,3 +386,15 @@ html[lang="zh-CN"] .hero-title-line lab-text{white-space:pre-line}
 
 /* Keep header and content aligned when switching between short and long pages. */
 html{overflow-y:scroll}
+
+/* Keep the language control geometry unchanged between EN and Chinese. */
+.site-header .language-switch{width:48px;min-width:48px;height:40px;min-height:40px;padding:6px 8px;box-sizing:border-box;flex-shrink:0}
+
+/* Keep language switching at the outer right edge on every page. */
+.site-header .language-switch{right:20px}@media(max-width:760px){.site-header .language-switch{right:16px}}
+
+/* Align Research with other page titles without its discipline label taking up flow space. */
+.page-about .page-intro{position:relative}.page-about .research-disciplines{position:absolute;top:calc(var(--intro-top) - 42px);left:0;margin:0;line-height:1.5}@media(max-width:760px){.page-about .research-disciplines{top:calc(var(--intro-top) - 34px)}}
+
+/* Align the final navigation item with the content edge; language switch stays outside. */
+.nav-inner{padding-right:0}
